@@ -1,0 +1,18 @@
+---
+label: Test post
+hide_body: false
+fields:
+- type: text
+  name: heading
+  label: Heading
+  description: Header text for post
+- type: textarea
+  name: post_description
+  label: Post description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: tag_list
+  name: tags
+  label: Tags
