@@ -3,16 +3,17 @@ label: Test post
 hide_body: false
 fields:
 - type: text
-  name: heading
-  label: Heading
-  description: Header text for post
-- type: textarea
-  name: post_description
-  label: Post description
+  name: title
+  label: Title
+  description: Title field for post
   config:
-    wysiwyg: true
-    schema:
-      format: markdown
+    required: true
+- type: text
+  name: author
+  label: Author
+  description: Author
+  config:
+    required: true
 - type: tag_list
   name: tags
   label: Tags
