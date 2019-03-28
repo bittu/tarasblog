@@ -17,6 +17,10 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
+- type: file
+  label: Thumb Image
+  name: thumb_image
+  description: Thumb image for SEO and Twitter cards
 pages:
 - _posts/2019-03-28-new-post.md
 - _posts/2019-03-13-test-post.md
