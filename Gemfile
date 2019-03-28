@@ -6,6 +6,7 @@ gem "image_optim"
 gem "jekyll"
 gem 'jekyll-archives'
 gem "jekyll-assets"
+gem "jekyll-twitter-plugin"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jemoji"
