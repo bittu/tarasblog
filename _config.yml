@@ -70,9 +70,9 @@ defaults:
   -
     scope:
       path: ""
-      type: my_tags
+      type: posts
     values:
-      layout: articles_by_tag
+      layout: post
 exclude:
   - .travis.yml
   - bin/*
