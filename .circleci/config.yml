@@ -17,14 +17,13 @@ jobs:
       - checkout
 
       - run:
-          name: Install Dependencies
+          name: Gather Intel
           command: |
             ./bin/setup
 
-      # run tests!
       - run:
-          name: run tests
+          name: Publish
           command: |
-            bundle exec jekyll build
+            # bundle exec jekyll build
             # bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
             ./bin/automated
