@@ -26,3 +26,17 @@
     @warn "The parameter #{$val} is not valid";
   }
 }
+
+@mixin opacity($opacity: 0.5) {
+  filter: alpha(opacity=$opacity*100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=#{$opacity*100});
+  opacity: $opacity;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
