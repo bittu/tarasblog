@@ -18,6 +18,6 @@ fields:
   name: tags
   label: Tags
 pages:
-- _posts/new-post.md
+- _posts/2019-03-28-new-post.md
 - _posts/2019-03-13-test-post.md
 - _posts/2019-03-25-testpost2.md
