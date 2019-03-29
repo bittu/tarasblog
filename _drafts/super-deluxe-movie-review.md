@@ -5,13 +5,17 @@ description: Vijaysethupathi's super deluxe tamil movie review starring Fahad Fa
 tags:
 - super deluxe review
 - movie review
-- public view
 - vj's super deluxe
 - 'vijaysethupathi '
 - samantha
 - ramya krishnan
 - mysskin
 - tamil movie
+- cinema lover
+- thyagarajakumaraja
+- fahad
+- 'kerala '
+- tamil movie lovers
 thumb_image: https://res.cloudinary.com/bittu/image/upload/v1553896978/tarasblog/superdeluxethumb.jpg
 date: 2019-03-29 22:00:03 +0000
 
