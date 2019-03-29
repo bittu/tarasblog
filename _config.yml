@@ -2,8 +2,9 @@
 
 blog_theme: light # Or use dark
 name: Tara's Blog
+description: Casual blog
 paginate: 25
-url: # add your site url (format: https://example.com)
+url: https://bittu.github.io/tarasblog/ # add your site url (format: https://example.com)
 
 
 # Optional settings

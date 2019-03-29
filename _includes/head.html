@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{{ site.name }} | {{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}">
+  <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="{{ page.title | escape }}">
@@ -62,5 +62,5 @@
     {% endif %}
 
   {% endif %}
-  
+
 </head>
