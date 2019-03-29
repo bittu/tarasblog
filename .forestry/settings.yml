@@ -10,10 +10,10 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: _assets/images/uploads
-public_path: assets/uploads
+upload_dir: bittu/image/tarasblog
+public_path: https://res.cloudinary.com/bittu/image/upload
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
