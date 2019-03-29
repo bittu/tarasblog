@@ -12,11 +12,11 @@ tags:
 - ramya krishnan
 - mysskin
 - tamil movie
-thumb_image: ''
+thumb_image: https://res.cloudinary.com/bittu/image/upload/v1553896978/tarasblog/superdeluxethumb.jpg
 date: 2019-03-29 22:00:03 +0000
 
 ---
-Super deluxe.
+![superdeluxe review post](https://res.cloudinary.com/bittu/image/upload/v1553896978/tarasblog/superdeluxethumb.jpg "Superdeluxe")Super deluxe.
 
 It took a whole night to process , what I just saw. I always feel in life , there is nothing wrong and everything is circumstantial. Love , lust, anger, stress, fear, break down everything is for a moment . No human , can feel this entire time . Everything is for a moment . But we live in a fantasy of our own world , with saying this is rules and abide the society and follow the customs and whatsoever.
 
@@ -24,12 +24,12 @@ Big salute to ,ThyagarajaKumaraja for portraying non filtered version of his min
 
 I can write and write and write , but won't find precise words to describe Super deluxe. Technically , screenplay , direction , acting everything was top notch. I am just listing my favourite order of actors from the movie , who were out of the box .
 
-1\. Rasu kutty - Kid was the best in the movie . Not even in a single frame , he stumbled .   
-2\. Boys - All five.   
+1\. Rasu kutty - Kid was the best in the movie . Not even in a single frame , he stumbled .  
+2\. Boys - All five.  
 3\. Ramya Krishnan  
-4\. Fahad   
-5 . Shilpa - Vijay Sethupathi   
-6\. Samantha - vembu. So glad , actress had the courage to do out of the box roles for the first time .   
+4\. Fahad  
+5 . Shilpa - Vijay Sethupathi  
+6\. Samantha - vembu. So glad , actress had the courage to do out of the box roles for the first time .  
 7 . Mysskin
 
 Whoever , whatever they performed and lived as the character , entire credit goes to the director , without a doubt .
