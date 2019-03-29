@@ -8,12 +8,10 @@ fields:
   description: Title field for post
   config:
     required: true
-- type: text
-  name: author
-  label: Author
-  description: Author
-  config:
-    required: true
+- type: textarea
+  name: description
+  label: Description
+  description: Description about post
 - type: tag_list
   name: tags
   label: Tags
