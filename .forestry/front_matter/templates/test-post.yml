@@ -13,6 +13,10 @@ fields:
   label: Description
   description: Description about post
 - type: tag_list
+  name: categories
+  label: Categories
+  description: Categories for the post
+- type: tag_list
   name: tags
   label: Tags
 - type: file
