@@ -18,6 +18,8 @@ tags:
 - tamil movie lovers
 thumb_image: https://res.cloudinary.com/bittu/image/upload/v1553896978/tarasblog/superdeluxethumb.jpg
 date: 2019-03-29 22:00:03 +0000
+categories:
+- moview review
 
 ---
 ![superdeluxe review post](https://res.cloudinary.com/bittu/image/upload/v1553896978/tarasblog/superdeluxethumb.jpg "Superdeluxe")Super deluxe.
