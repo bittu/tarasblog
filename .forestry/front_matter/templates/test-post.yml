@@ -20,7 +20,7 @@ fields:
   name: thumb_image
   description: Thumb image for SEO and Twitter cards
 pages:
-- _posts/super-deluxe-movie-review.md
+- _posts/2019-03-29-super-deluxe-movie-review.md
 - _posts/2019-03-28-new-post.md
 - _posts/2019-03-13-test-post.md
 - _posts/2019-03-25-testpost2.md
