@@ -10,7 +10,7 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: bittu/image/tarasblog
+upload_dir: tarasblog
 public_path: https://res.cloudinary.com/bittu/image/upload
 front_matter_path: ''
 use_front_matter_path: 
