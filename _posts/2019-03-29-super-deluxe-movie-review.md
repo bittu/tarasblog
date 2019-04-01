@@ -19,7 +19,7 @@ tags:
 thumb_image: https://res.cloudinary.com/bittu/image/upload/v1553896978/tarasblog/superdeluxethumb.jpg
 date: 2019-03-29 22:00:03 +0000
 categories:
-- moview review
+- movie review
 
 ---
 ![superdeluxe review post](https://res.cloudinary.com/bittu/image/upload/v1553896978/tarasblog/superdeluxethumb.jpg "Superdeluxe")Super deluxe.
@@ -45,3 +45,7 @@ Cinematography and art were visually world class .
 Ellathaiyum paathutu , ipdi lam irukuma enna nu nenachaalum , your mind set thaan . Aama , practicality nenachaalum your mind set daan.
 
 Go watch Super Deluxe.
+
+###### Here's trailer:
+
+{% youtube https://www.youtube.com/watch?v=3-Xq_Zz3nPA %}
