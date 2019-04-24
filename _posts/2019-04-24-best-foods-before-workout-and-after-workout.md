@@ -19,7 +19,7 @@ tags:
 - exercise
 - lifestyle foods
 - healthy foods
-thumb_image: ''
+thumb_image: https://res.cloudinary.com/bittu/image/upload/v1556120111/tarasblog/workout.jpg
 date: 2019-04-24 15:40:29 +0000
 
 ---
