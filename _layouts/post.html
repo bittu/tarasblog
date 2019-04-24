@@ -50,10 +50,11 @@
           </div>
 
           <div class="article-list-tags">
-              {% for tag in page.tags %}
-                <a href="{{ 'tag/' | relative_url }}{{ tag | replace: ' ', '-' }}">{{ tag }}</a>
-              {% endfor %}
-            </div>
+            {% include svg-icon.html icon="tags" %}
+            {% for tag in page.tags %}
+              <a href="{{ 'tag/' | relative_url }}{{ tag | replace: ' ', '-' }}">{{ tag }}</a>
+            {% endfor %}
+          </div>
 
           {% if site.discus_identifier %}
             <div id="disqus_thread" class="article-comments"></div>

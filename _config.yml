@@ -60,7 +60,9 @@ assets:
 #     permalink: /tag/:slug/
 jekyll-archives:
   enabled: [tags, categories]
-  layout: articles_by_tag
+  layouts:
+    category: articles_by_category
+    tag: articles_by_tag
   permalinks:
     tag: '/tag/:name/'
     category: '/category/:name/'
