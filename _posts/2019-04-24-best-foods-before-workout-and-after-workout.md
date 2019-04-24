@@ -1,6 +1,6 @@
 ---
 title: 'Best foods before workout and after workout:'
-description: ''
+description: Simple foods for post and pre workout plans
 categories: []
 tags:
 - 'Best foods before workout and after workout:'
