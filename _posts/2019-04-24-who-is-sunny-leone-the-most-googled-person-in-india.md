@@ -15,7 +15,7 @@ tags:
 - sunny leone personal life
 - youtube
 - sunny leone story
-thumb_image: ''
+thumb_image: https://res.cloudinary.com/bittu/image/upload/v1556119102/tarasblog/594750734.jpg
 date: 2019-04-24 15:21:35 +0000
 
 ---
