@@ -4,14 +4,14 @@ blog_theme: light # Or use dark
 name: Tara's Blog
 description: Casual blog
 paginate: 25
-url: https://bittu.github.io/tarasblog/ # add your site url (format: https://example.com)
+url: http://putsperfect.com # add your site url (format: https://example.com)
 
 
 # Optional settings
 
 theme_toggle: true # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
 about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
-baseurl: /tarasblog # Set if blog doesn't sit at the root of the domain (format: /blog)
+#baseurl: / # Set if blog doesn't sit at the root of the domain (format: /blog)
 discus_identifier: bittu-1 # Add your Disqus identifier
 ga_analytics: UA-137350683-1 # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
