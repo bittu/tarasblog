@@ -1,0 +1,49 @@
+---
+title: VIJAY TV SERIAL PANDIAN STORES REAL NAMES
+description: ACTORS  REEL NAME VS REAL NAME
+categories:
+- entertainment
+tags:
+- VIJAYTV
+- pandian stores
+- real name of pandian store actor
+- vijaytv serial actors name
+- pandian stores actor real name
+- serial actors
+- vijaytv
+- mullai kathir real name
+- dhanam real name
+- jeeva real name
+- mullai kathir
+- 'SERIAL '
+thumb_image: ''
+date: 2019-04-25 15:17:39 +0000
+
+---
+**VIJAY TV SERIAL PANDIAN STORES**
+
+ACTORS  REEL NAME VS REAL NAME
+
+![](https://res.cloudinary.com/bittu/image/upload/v1556205059/tarasblog/pandian.jpg)
+
+**MAIN FAMILY:**
+
+1. LAKSHMI PANDIAN - _SHEELA_ --> (MOTHER)
+2. SATYAMURTHY PANDIAN- _STALIN_ --> FIRST SON
+3. JEEVA PANDIAN - _VENKAT RANGANATHAN_ --> SECOND SON
+4. KADHIR PANDIAN-_KUMARAN THANGARAJAN_ --> THIRD SON
+5. KANNAN PANDIAN - _SARAVANA VICKRAM_ --> FOURTH SON
+6. DHANAM DHANALAKSHMI - _SUJITHA DANUSH_ -->SATHYAMURTHY WIFE + JAGA SISTER
+7. MEENA - _HEMARAJ_ --> JEEVA WIFE
+8. MULLAI - _V J CHITHRA_ --> KATHIR WIFE
+
+**OTHERS**:
+
+1. PARVATHY- _SHANTHI WILLIAMS_ --> MULLAI MOTHER
+2. JAGA JAGANATHAM - _DAVID SOLOMON_ --> DHANAM BROTHER
+3. KASTHURI - _MEENA SELLAMUTHU_ (ATHHACHI) --> JAGA WIFE
+4. JANARDHAN -_NALINKANTH_ -->MEENA'S FATHER VILLIAN
+5. KALAI JANARDHAN-_SRIVIDHYA_ -->MEENA'S MOTHER
+6. SWETHA-_VINUJA_ VIJAY -->MEENA'S SISTER
+
+THANK YOU !!
