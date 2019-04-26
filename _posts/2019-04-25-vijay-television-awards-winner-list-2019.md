@@ -21,6 +21,8 @@ date: 2019-04-25 17:03:12 +0000
 ---
 **_Vijay Television awards 2019 Winners list_**
 
+![](https://res.cloudinary.com/bittu/image/upload/v1556279497/tarasblog/95959-vijayymain.jpg)
+
 Best Actor male - MIRCHI SENTHIL for NINI
 
 Best Marumagal - THAMARAI for NINI
