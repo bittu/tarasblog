@@ -1,20 +1,58 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Tara's Blog</title>
+    <description>Casual blog</description>
+    <link>http://putsperfect.com</link>
+    <atom:link href="http://putsperfect.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Pandian stores actor celebrates his birthday on the sets !! Surprise by his wife !!</title>
+        <description></description>
+        <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+        <link>http://putsperfect.com/posts/pandian-stores-actor-celebrates-his-birthday-on-the-sets-surprise-by-his-wife</link>
+        <guid isPermaLink="true">http://putsperfect.com/posts/pandian-stores-actor-celebrates-his-birthday-on-the-sets-surprise-by-his-wife</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Shruthi Hassan breakup with Michael Corsale ?? Reason?</title>
+        <description>Shruthi Hassan who was in relationship with her Boyfriend Michael Corsale London based actor got breakup recently </description>
+        <pubDate>Sat, 27 Apr 2019 14:00:13 +0000</pubDate>
+        <link>http://putsperfect.com/posts/shruthi-hassan-break-up-with-michael-corsale-reason</link>
+        <guid isPermaLink="true">http://putsperfect.com/posts/shruthi-hassan-break-up-with-michael-corsale-reason</guid>
+      </item>
+    
+      <item>
+        <title>VIJAY TELEVISION AWARDS WINNER LIST 2019</title>
+        <description>Vijay Television awards yaar yaar ku teriyanuma </description>
+        <pubDate>Thu, 25 Apr 2019 17:03:12 +0000</pubDate>
+        <link>http://putsperfect.com/posts/vijay-television-awards-winner-list-2019</link>
+        <guid isPermaLink="true">http://putsperfect.com/posts/vijay-television-awards-winner-list-2019</guid>
+      </item>
+    
+      <item>
+        <title>VIJAY TV SERIAL PANDIAN STORES REAL NAMES</title>
+        <description>ACTORS  REEL NAME VS REAL NAME</description>
+        <pubDate>Thu, 25 Apr 2019 15:17:39 +0000</pubDate>
+        <link>http://putsperfect.com/posts/vijay-tv-serial-pandian-stores-real-name</link>
+        <guid isPermaLink="true">http://putsperfect.com/posts/vijay-tv-serial-pandian-stores-real-name</guid>
+      </item>
+    
+      <item>
+        <title>Best foods before workout and after workout:</title>
+        <description>Simple foods for post and pre workout plans</description>
+        <pubDate>Wed, 24 Apr 2019 15:40:29 +0000</pubDate>
+        <link>http://putsperfect.com/posts/best-foods-before-workout-and-after-workout</link>
+        <guid isPermaLink="true">http://putsperfect.com/posts/best-foods-before-workout-and-after-workout</guid>
+      </item>
+    
+      <item>
+        <title>SUPER DELUXE movie review</title>
+        <description>Vijaysethupathi's super deluxe tamil movie review starring Fahad Fassil, Samantha, Ramya krishnan, Mysskin</description>
+        <pubDate>Fri, 29 Mar 2019 22:00:03 +0000</pubDate>
+        <link>http://putsperfect.com/posts/super-deluxe-movie-review</link>
+        <guid isPermaLink="true">http://putsperfect.com/posts/super-deluxe-movie-review</guid>
+      </item>
+    
   </channel>
 </rss>

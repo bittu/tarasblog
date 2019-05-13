@@ -1,31 +1,1031 @@
----
-layout: default
-title: "Tags"
-description: "Tag cloud from all the posts"
-permalink: /tags
-sitemap: false
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Tara's Blog | Tags</title>
+  <meta itemprop="description" name="description" content="Tag cloud from all the posts" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="tags-page">
+  <meta property="og:title" content="Tags">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://putsperfect.com/tags">
+  <meta property="og:description" content="Tag cloud from all the posts">
+  <meta property="og:site_name" content="Tara's Blog">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://putsperfect.com/tags">
+  <meta name="twitter:title" content="Tags">
+  <meta name="twitter:description" content="Tag cloud from all the posts">
+
+  
+    <meta property="og:image" content="http://putsperfect.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+    <meta name="twitter:image" content="http://putsperfect.com/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+  
+
+  <link href="http://putsperfect.com/feed.xml" type="application/rss+xml" rel="alternate" title="Tara's Blog Last 10 blog posts" />
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-a98c41efc5ed9fcc06ac664c9e2f7a9b3c3b2e0a52357d221fe382f6f4abc8fc.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="/assets/light-28456323a16d9f77dc7fb77c548e2971ebd6abdf40c733a9ef3d7c0a4202d2b6.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="/assets/dark-c1bc8c51fb5837cfe65a0422e537343a65f91994cc1adeed53289cf0bad2b862.css" disabled="true">
+    
+
+  
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-7673752789834591",
+      enable_page_level_ads: true
+    });
+  </script>
+
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a href="/" class="header-logo" title="Tara's Blog">Tara's Blog</a>
+  <ul class="header-links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a onclick="toggle()" title="Toggle Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-theme">
+  <use href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme" xlink:href="/assets/theme-66869e0bf8dab34bae1c86bda400327b772e0be69e8dc28d3ede896e771320ed.svg#icon-theme"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+        <div class="tags-page">
   <h1 class="tags-page-header">
     Tags
   </h1>
 
-  {% assign sorted_tags = site.tags | sort %}
+  
 
-  {% for tag in sorted_tags %}
+  
 
-    {% assign tag_slug = tag | first %}
-    {% assign upcase_tag_slug = tag_slug | upcase %}
-    {% assign no_of_posts = tag | last | size %}
+    
+    
+    
 
-    {% if upcase_tag_slug != "PROJECT" %}
+    
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a class="tag-cloud" href="{{ 'tag/' | relative_url }}{{ tag_slug }}" title="See all posts by {{ upcase_tag_slug }} tag"
-      style="font-size: {{ no_of_posts  |  times: 15 | plus: 120  }}%">
-        <span>{{ upcase_tag_slug }}<small>({{ no_of_posts }})</small></span>
+      <a class="tag-cloud" href="/tag/5thannualvijayawards2019" title="See all posts by 5THANNUALVIJAYAWARDS2019 tag"
+      style="font-size: 135%">
+        <span>5THANNUALVIJAYAWARDS2019<small>(1)</small></span>
       </a>
-    {% endif %}
+    
 
-  {% endfor %}
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/Best foods before workout and after workout:" title="See all posts by BEST FOODS BEFORE WORKOUT AND AFTER WORKOUT: tag"
+      style="font-size: 135%">
+        <span>BEST FOODS BEFORE WORKOUT AND AFTER WORKOUT:<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/SERIAL " title="See all posts by SERIAL  tag"
+      style="font-size: 135%">
+        <span>SERIAL <small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/VIJAYTV" title="See all posts by VIJAYTV tag"
+      style="font-size: 135%">
+        <span>VIJAYTV<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/best food during workout" title="See all posts by BEST FOOD DURING WORKOUT tag"
+      style="font-size: 135%">
+        <span>BEST FOOD DURING WORKOUT<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/birthday" title="See all posts by BIRTHDAY tag"
+      style="font-size: 135%">
+        <span>BIRTHDAY<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/birthday on the set" title="See all posts by BIRTHDAY ON THE SET tag"
+      style="font-size: 135%">
+        <span>BIRTHDAY ON THE SET<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/breakup" title="See all posts by BREAKUP tag"
+      style="font-size: 150%">
+        <span>BREAKUP<small>(2)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/cinema lover" title="See all posts by CINEMA LOVER tag"
+      style="font-size: 135%">
+        <span>CINEMA LOVER<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/dhanam real name" title="See all posts by DHANAM REAL NAME tag"
+      style="font-size: 135%">
+        <span>DHANAM REAL NAME<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/diet plan" title="See all posts by DIET PLAN tag"
+      style="font-size: 135%">
+        <span>DIET PLAN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/exercise" title="See all posts by EXERCISE tag"
+      style="font-size: 135%">
+        <span>EXERCISE<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/fahad" title="See all posts by FAHAD tag"
+      style="font-size: 135%">
+        <span>FAHAD<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/food" title="See all posts by FOOD tag"
+      style="font-size: 135%">
+        <span>FOOD<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/fruits to eat" title="See all posts by FRUITS TO EAT tag"
+      style="font-size: 135%">
+        <span>FRUITS TO EAT<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/gym" title="See all posts by GYM tag"
+      style="font-size: 135%">
+        <span>GYM<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/haasan" title="See all posts by HAASAN tag"
+      style="font-size: 135%">
+        <span>HAASAN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/healthy diet" title="See all posts by HEALTHY DIET tag"
+      style="font-size: 135%">
+        <span>HEALTHY DIET<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/healthy foods" title="See all posts by HEALTHY FOODS tag"
+      style="font-size: 135%">
+        <span>HEALTHY FOODS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/jeeva real name" title="See all posts by JEEVA REAL NAME tag"
+      style="font-size: 135%">
+        <span>JEEVA REAL NAME<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/kamalhaasan" title="See all posts by KAMALHAASAN tag"
+      style="font-size: 135%">
+        <span>KAMALHAASAN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/kerala " title="See all posts by KERALA  tag"
+      style="font-size: 135%">
+        <span>KERALA <small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/lifestyle foods" title="See all posts by LIFESTYLE FOODS tag"
+      style="font-size: 135%">
+        <span>LIFESTYLE FOODS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/michael corsale" title="See all posts by MICHAEL CORSALE tag"
+      style="font-size: 135%">
+        <span>MICHAEL CORSALE<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/movie review" title="See all posts by MOVIE REVIEW tag"
+      style="font-size: 135%">
+        <span>MOVIE REVIEW<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/mullai kathir" title="See all posts by MULLAI KATHIR tag"
+      style="font-size: 135%">
+        <span>MULLAI KATHIR<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/mullai kathir real name" title="See all posts by MULLAI KATHIR REAL NAME tag"
+      style="font-size: 135%">
+        <span>MULLAI KATHIR REAL NAME<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/mysskin" title="See all posts by MYSSKIN tag"
+      style="font-size: 135%">
+        <span>MYSSKIN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/pandian stores" title="See all posts by PANDIAN STORES tag"
+      style="font-size: 150%">
+        <span>PANDIAN STORES<small>(2)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/pandian stores actor real name" title="See all posts by PANDIAN STORES ACTOR REAL NAME tag"
+      style="font-size: 135%">
+        <span>PANDIAN STORES ACTOR REAL NAME<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/postworkout" title="See all posts by POSTWORKOUT tag"
+      style="font-size: 135%">
+        <span>POSTWORKOUT<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/postworkout foods" title="See all posts by POSTWORKOUT FOODS tag"
+      style="font-size: 135%">
+        <span>POSTWORKOUT FOODS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/preworkoutfoods" title="See all posts by PREWORKOUTFOODS tag"
+      style="font-size: 135%">
+        <span>PREWORKOUTFOODS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/ramya krishnan" title="See all posts by RAMYA KRISHNAN tag"
+      style="font-size: 135%">
+        <span>RAMYA KRISHNAN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/real name of pandian store actor" title="See all posts by REAL NAME OF PANDIAN STORE ACTOR tag"
+      style="font-size: 135%">
+        <span>REAL NAME OF PANDIAN STORE ACTOR<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/reason" title="See all posts by REASON tag"
+      style="font-size: 135%">
+        <span>REASON<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/samantha" title="See all posts by SAMANTHA tag"
+      style="font-size: 135%">
+        <span>SAMANTHA<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/serial actors" title="See all posts by SERIAL ACTORS tag"
+      style="font-size: 135%">
+        <span>SERIAL ACTORS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/serial awards" title="See all posts by SERIAL AWARDS tag"
+      style="font-size: 135%">
+        <span>SERIAL AWARDS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/shrtz" title="See all posts by SHRTZ tag"
+      style="font-size: 135%">
+        <span>SHRTZ<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/shruthihassan" title="See all posts by SHRUTHIHASSAN tag"
+      style="font-size: 135%">
+        <span>SHRUTHIHASSAN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/shruthihassan boyfriend" title="See all posts by SHRUTHIHASSAN BOYFRIEND tag"
+      style="font-size: 135%">
+        <span>SHRUTHIHASSAN BOYFRIEND<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/shrutz" title="See all posts by SHRUTZ tag"
+      style="font-size: 135%">
+        <span>SHRUTZ<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/shrutzhaaasan" title="See all posts by SHRUTZHAAASAN tag"
+      style="font-size: 135%">
+        <span>SHRUTZHAAASAN<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/super deluxe review" title="See all posts by SUPER DELUXE REVIEW tag"
+      style="font-size: 135%">
+        <span>SUPER DELUXE REVIEW<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/tamil movie" title="See all posts by TAMIL MOVIE tag"
+      style="font-size: 135%">
+        <span>TAMIL MOVIE<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/tamil movie lovers" title="See all posts by TAMIL MOVIE LOVERS tag"
+      style="font-size: 135%">
+        <span>TAMIL MOVIE LOVERS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/thyagarajakumaraja" title="See all posts by THYAGARAJAKUMARAJA tag"
+      style="font-size: 135%">
+        <span>THYAGARAJAKUMARAJA<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/venkat " title="See all posts by VENKAT  tag"
+      style="font-size: 135%">
+        <span>VENKAT <small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijay award tele serial awards 2019" title="See all posts by VIJAY AWARD TELE SERIAL AWARDS 2019 tag"
+      style="font-size: 135%">
+        <span>VIJAY AWARD TELE SERIAL AWARDS 2019<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijay awards" title="See all posts by VIJAY AWARDS tag"
+      style="font-size: 135%">
+        <span>VIJAY AWARDS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijay awards winners list" title="See all posts by VIJAY AWARDS WINNERS LIST tag"
+      style="font-size: 135%">
+        <span>VIJAY AWARDS WINNERS LIST<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijay television" title="See all posts by VIJAY TELEVISION tag"
+      style="font-size: 135%">
+        <span>VIJAY TELEVISION<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijayserialawards" title="See all posts by VIJAYSERIALAWARDS tag"
+      style="font-size: 135%">
+        <span>VIJAYSERIALAWARDS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijaysethupathi " title="See all posts by VIJAYSETHUPATHI  tag"
+      style="font-size: 135%">
+        <span>VIJAYSETHUPATHI <small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijaytele awards" title="See all posts by VIJAYTELE AWARDS tag"
+      style="font-size: 135%">
+        <span>VIJAYTELE AWARDS<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijaytv" title="See all posts by VIJAYTV tag"
+      style="font-size: 150%">
+        <span>VIJAYTV<small>(2)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vijaytv serial actors name" title="See all posts by VIJAYTV SERIAL ACTORS NAME tag"
+      style="font-size: 135%">
+        <span>VIJAYTV SERIAL ACTORS NAME<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/vj's super deluxe" title="See all posts by VJ'S SUPER DELUXE tag"
+      style="font-size: 135%">
+        <span>VJ'S SUPER DELUXE<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/winners list" title="See all posts by WINNERS LIST tag"
+      style="font-size: 135%">
+        <span>WINNERS LIST<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/workout" title="See all posts by WORKOUT tag"
+      style="font-size: 135%">
+        <span>WORKOUT<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/workout energies" title="See all posts by WORKOUT ENERGIES tag"
+      style="font-size: 135%">
+        <span>WORKOUT ENERGIES<small>(1)</small></span>
+      </a>
+    
+
+  
+
+    
+    
+    
+
+    
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="tag-cloud" href="/tag/workout foods" title="See all posts by WORKOUT FOODS tag"
+      style="font-size: 135%">
+        <span>WORKOUT FOODS<small>(1)</small></span>
+      </a>
+    
+
+  
 </div>
+
+        <footer class="footer scrollappear">
+  <p>
+    Copyright © 2019
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137350683-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-137350683-1');
+  </script>
+
+
+<script type="text/javascript" src="/assets/vendor-2c224c53eb697c739f9490c38819a72184f09472739fd9e492272ef174090428.js"></script>
+
+
+  <script type="text/javascript" src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js"></script>
+
+
+
+  <script type="text/javascript" src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js"></script>
+
+
+<script type="text/javascript" src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js"></script>
+
+
+  <script type="text/javascript" src="/assets/themetoggle-df0d3d73164dc26dffbd630182ae4d0dfa7bee6b694a2b5d565d73595b582bbf.js"></script>
+
+</body>
+</html>
